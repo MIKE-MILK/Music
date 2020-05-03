@@ -30,6 +30,10 @@ public class HomeFragment extends BaseFragment<RecommendPresenter> implements Re
     private RecyclerView recyclerView;
     private List<Recommend>recommendList;
     private List<Recommend.Creator>creators;
+    //banner当前位置
+    private int currentPosition = 1;
+    //banner之前位置
+    private int previousPosition = 0;
 
     @Nullable
     @Override
