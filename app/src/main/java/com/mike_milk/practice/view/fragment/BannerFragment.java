@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * 时间：2020/5/2
  * 创建者：MIKE-MILK
- * 描述：
+ * 描述：.
  */
 public class BannerFragment extends BaseFragment<BannerPresenter> implements View.OnClickListener, BannerContract.View {
     private ViewPager viewPager;
