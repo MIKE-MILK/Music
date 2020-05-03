@@ -84,14 +84,14 @@ public class BannerFragment extends BaseFragment<BannerPresenter> implements Vie
 
             }
         });
-//        setFirstLocation();
+        setFirstLocation();
     }
-//    private void setFirstLocation() {
-//        // 把ViewPager设置为默认选中Integer.MAX_VALUE / t2，从十几亿次开始轮播图片，达到无限循环目的;
-//        int m = (Integer.MAX_VALUE / 2) % imageViews.size();
-//        int currentPosition = Integer.MAX_VALUE / 2 - m;
-//        viewPager.setCurrentItem(currentPosition);
-//    }
+    private void setFirstLocation() {
+        // 把ViewPager设置为默认选中Integer.MAX_VALUE / t2，从十几亿次开始轮播图片，达到无限循环目的;
+        int m = (Integer.MAX_VALUE / 2) % imageViews.size();
+        int currentPosition = Integer.MAX_VALUE / 2 - m;
+        viewPager.setCurrentItem(currentPosition);
+    }
 
 //    public void autoPlayView(){
 //        //自动播放图片
