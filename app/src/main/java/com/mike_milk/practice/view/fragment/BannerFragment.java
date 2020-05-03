@@ -115,6 +115,9 @@ public class BannerFragment extends BaseFragment<BannerPresenter> implements Vie
     @Override
     public void onClick(View v) {
         //banner的点击的情况
+        switch (v.getId()){
+
+        }
     }
 
     @Override
